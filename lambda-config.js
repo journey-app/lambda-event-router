@@ -41,7 +41,7 @@ function readEnv(env, type, defaultValue) {
 module.exports = {
   handler: "index.handler",
   role: readEnv("EVENT_ROUTER_ROLE_ARN", string),
-  functionName: readEnv("EVENT_ROUTER_FUN_NAME", string, "JourneyEventRouter"),
+  functionName: readEnv("EVENT_ROUTER_FUN_NAME", string, "LambdaEventRouter"),
   timeout: readEnv("ENV_ROUTER_LAMBDA_TIMEOUT", integer, 30),
   memorySize: readEnv("ENV_ROUTER_LAMBDA_MEM", integer, 128),
   eventSource: {

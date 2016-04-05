@@ -1,7 +1,7 @@
 {
-  "name": "journey-event-router",
+  "name": "lambda-event-router",
   "description": "lambda package to for route events from Kinesis to SQS",
-  "repository": "https://github.com/ThoughtWorksStudios/journey-event-router",
+  "repository": "https://github.com/journey-app/lambda-event-router",
   "dependencies": {
     "aws-sdk": "^2.0.0",
     "async": "^0.9.2",

@@ -17,7 +17,7 @@ var index = require('../index')
 
 var expect = require('chai').expect
 
-describe('journey event router module', function() {
+describe('lambda event router module', function() {
   function last(array) {
     return array[array.length -1];
   }

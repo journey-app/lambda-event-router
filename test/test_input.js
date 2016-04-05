@@ -26,9 +26,9 @@ module.exports = {
             "eventVersion": "1.0",
             "eventID": "shardId-000000000000:49554761490057386891188033374880793084500745700843192322",
             "eventName": "aws:kinesis:record",
-            "invokeIdentityArn": "arn:aws:iam::623627795663:role/lambda_kinesis_role",
+            "invokeIdentityArn": "arn:aws:iam::xxxxxx:role/lambda_kinesis_role",
             "awsRegion": "us-east-1",
-            "eventSourceARN": "arn:aws:kinesis:us-east-1:623627795663:stream/journey-event-stream-production-KinesisStream-1A9VCZ46YLDLQ"
+            "eventSourceARN": "arn:aws:kinesis:us-east-1:xxxxxx:stream/journey-event-stream-production-KinesisStream-1A9VCZ46YLDLQ"
         },
         {
             "kinesis": {
@@ -41,9 +41,9 @@ module.exports = {
             "eventVersion": "1.0",
             "eventID": "shardId-000000000000:49554761490057386891188033374882002010320360398737375234",
             "eventName": "aws:kinesis:record",
-            "invokeIdentityArn": "arn:aws:iam::623627795663:role/lambda_kinesis_role",
+            "invokeIdentityArn": "arn:aws:iam::xxxxxx:role/lambda_kinesis_role",
             "awsRegion": "us-east-1",
-            "eventSourceARN": "arn:aws:kinesis:us-east-1:623627795663:stream/journey-event-stream-production-KinesisStream-1A9VCZ46YLDLQ"
+            "eventSourceARN": "arn:aws:kinesis:us-east-1:xxxxxx:stream/journey-event-stream-production-KinesisStream-1A9VCZ46YLDLQ"
         }
     ]
 };
