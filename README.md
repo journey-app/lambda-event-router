@@ -1,4 +1,4 @@
-# journey-event-router
+# lambda-event-router
 deploy a lambda function for aggregating events from Kinesis and send to SQS
 
 Usage:
