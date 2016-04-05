@@ -1,0 +1,32 @@
+{
+  "name": "journey-event-router",
+  "description": "lambda package to for route events from Kinesis to SQS",
+  "repository": "https://github.com/ThoughtWorksStudios/journey-event-router",
+  "dependencies": {
+    "aws-sdk": "^2.0.0",
+    "async": "^0.9.2",
+    "dotenv": "^2.0.0",
+    "moment": "^2.10.3"
+  },
+
+  "devDependencies": {
+    "gulp": "3.x.x",
+    "del": "^1.1.0",
+    "gulp-install": "^0.2.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-zip": "^2.0.2",
+    "gulp-file": "^0.2.0",
+    "run-sequence": "^1.0.2",
+    "gulp-mocha": "^2.0.0",
+    "gulp-util": "^3.0.4",
+    "mocha": "^2.2.1",
+    "chai": "^2.1.1",
+    "node-aws-lambda": "^0.1.6"
+  },
+
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js mocha",
+    "watch": "./node_modules/gulp/bin/gulp.js",
+    "deploy": "./node_modules/gulp/bin/gulp.js deploy"
+  }
+}
